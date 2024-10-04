@@ -16,7 +16,11 @@ const SchemaStudents = new Schema({
     age: {
         type: Number,
         required: true
-    }
+    },
+    major: {
+        type: String,
+        required: true
+    },
 });
 
 export const ModelStudent = new model("Alumnos Reprobados", SchemaStudents)
