@@ -1,4 +1,4 @@
-import { ModelStudent } from "../models/alumnos.model.js";
+import { ModelStudent } from "../../models/alumnos.model.js";
 
 ModelStudent.create([
     {

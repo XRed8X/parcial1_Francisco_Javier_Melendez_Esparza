@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import cors from "cors"
 import express from "express"
 import dotenv from "dotenv"
-import { test } from "./controllers/alumno.controller.js";
+import { test } from "./backend/controllers/alumno.controller.js";
 
 dotenv.config() // Carga las variables de entorno
 
